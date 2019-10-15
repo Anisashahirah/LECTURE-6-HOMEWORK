@@ -1,0 +1,25 @@
+//NURUL ANISA SHAHIRAH BINTI MAT ROPI
+//1BITI
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+  int num =0; char test=' ';
+  do { 
+      cout <<"please enter a num\n";
+      cin>>num;
+      
+      if (num % 2 == 0)
+        cout<<"its an even number"<<endl;
+    else 
+    cout <<"its an odd number"<<endl;
+    
+    cout <<"do you want to test another number? press Y "<<endl;
+    cin >> test;
+  } 
+  while (test ='Y');
+    
+         
+}
