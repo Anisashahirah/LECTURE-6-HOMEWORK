@@ -16,10 +16,11 @@ int main()
     else 
     cout <<"its an odd number"<<endl;
     
-    cout <<"do you want to test another number? press Y "<<endl;
+    cout <<"do you want to test another number? press Y else press any char"<<endl;
     cin >> test;
   } 
   while (test ='Y');
+  cout <<"loop terminate";
     
          
 }
