@@ -2,19 +2,11 @@
 #include <iostream>
 #include <string>
 	using namespace std;
-
-
-int main()
+int _try()
+ 
+	
 {
-	char menu; int count = 1, month = 0;
-	do {
-		cout << " please choose a menu\n A) ADULT GYM \n B) KIDS GYM\n C) SENIOR CITIZEN GYM\n D) EXIT MENU \n";
-		cin >> menu;
-		cout << "how many month ?";
-		cin >> month;
-
-
-		switch (menu)
+	switch (menu)
 		{
 		case 'A':
 			cout << "adult gym PRICE IS RM 50\n";
@@ -39,6 +31,20 @@ int main()
 	} while (menu != 'D');
 	cout << " this program is terminated \n";
 	return 0;
+}
+
+int main()
+{
+	char menu; int count = 1, month = 0;
+	do {
+		cout << " please choose a menu\n A) ADULT GYM \n B) KIDS GYM\n C) SENIOR CITIZEN GYM\n D) EXIT MENU \n";
+		cin >> menu;
+		cout << "how many month ?";
+		cin >> month;
+
+	try();
+	return 0;9
+		
 
 }
 
